@@ -9,15 +9,15 @@ with open("style.css") as f:
 #####################
 # Header 
 st.write('''
-# Chanin Nantasenamat, Ph.D.
+# Akshay Narvate, Data Scientist.
 ##### *Resume* 
 ''')
 
-image = Image.open('dp.png')
-st.image(image, width=150)
+#image = Image.open('dp.png')
+#st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
-st.info('''
+#st.info('''
 - Experienced Educator, Researcher and Administrator with almost twenty years of experience in data-oriented environment and a passion for delivering insights based on predictive modeling. 
 - Strong verbal and written communication skills as demonstrated by extensive participation as invited speaker at `10` conferences as well as publishing 149 research articles.
 - Strong track record in scholarly research with H-index of `32` and total citation of 3200+.
@@ -93,19 +93,10 @@ st.markdown('''
 ## Education
 ''')
 
-txt('**Doctor of Philosophy** (Medical Technology), *Mahidol University*, Thailand',
-'2002-2006')
+txt('**Bachelors of Science** (Microbiology, Genetics, Chemistry), *Bhavans Vivekanda College*, Hyderabad',
+'2015-2018')
 st.markdown('''
-- GPA: `3.89`
-- Research thesis entitled `Computer-aided molecular design for biological and chemical applications : Quantum chemical and machine learning approach`.
-- Received Royal Golden Jubilee Ph.D. Scholarship of `2.152 million THB` covering tuition and stipend.
-- Thesis awarded `1st` Prize by the National Research Council of Thailand.
-''')
-
-txt('**Bachelors of Science** (Biological Science), *Mahidol University International College*, Thailand',
-'1998-2002')
-st.markdown('''
-- GPA: `3.65`
+- Percentage: `66.0`
 - Graduated with First Class Honors.
 ''')
 
