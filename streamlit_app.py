@@ -9,7 +9,7 @@ with open("style.css") as f:
 #####################
 # Header 
 st.write('''
-# Akshay Narvate, Data Scientist.
+# Chanin Nantasenamat, Ph.D.
 ##### *Resume* 
 ''')
 
@@ -93,10 +93,19 @@ st.markdown('''
 ## Education
 ''')
 
-txt('**Bachelors of Science** (Microbiology, Genetics, Chemistry), *Bhavans Vivekanda College*, Hyderabad',
-'2015-2018')
+txt('**Doctor of Philosophy** (Medical Technology), *Mahidol University*, Thailand',
+'2002-2006')
 st.markdown('''
-- Percentage: `66.0`
+- GPA: `3.89`
+- Research thesis entitled `Computer-aided molecular design for biological and chemical applications : Quantum chemical and machine learning approach`.
+- Received Royal Golden Jubilee Ph.D. Scholarship of `2.152 million THB` covering tuition and stipend.
+- Thesis awarded `1st` Prize by the National Research Council of Thailand.
+''')
+
+txt('**Bachelors of Science** (Biological Science), *Mahidol University International College*, Thailand',
+'1998-2002')
+st.markdown('''
+- GPA: `3.65`
 - Graduated with First Class Honors.
 ''')
 
