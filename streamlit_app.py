@@ -93,6 +93,18 @@ def txt4(a, b, c):
     st.markdown(b)
   with col3:
     st.markdown(c)
+      
+def txt5(a, b, c, d):
+  col1, col2, col3, col4 = st.columns([1.5,2,2,2])
+  with col1:
+    st.markdown(f'`{a}`')
+  with col2:
+    st.markdown(b)
+  with col3:
+    st.markdown(c)
+  with col4:
+    st.markdown(d)
+
 
 #####################
 st.markdown('''
@@ -154,11 +166,11 @@ st.markdown('''
 ## Data Science Projects
 ''')
 txt4('Next Best Action Standard Bank', 'This is an supervised Machine Learning project that uses Random forest method that proactively finds out the churn customer.', 'https://github.com/akshaynarvate/Next-Best-Action')    
-txt4('Bank Product Recommendation Engine', 'This is an unsupervised Machine Learning project that uses Collaborative Filtering method that recommends products based on the similar customer interests.', 'https://akshaynarvate-product-recommendation-engine-main-2cy7u3.streamlitapp.com/', 'https://github.com/akshaynarvate/Bank-Product-Recommendation-engine')
-txt4('Fitness Prediction Application', 'Gym-App is a fully deployed Machine Learning model that helps you predict your health status based on your inputs.', 'https://share.streamlit.io/akshaynarvate/gymapp/main/main.py', 'https://github.com/akshaynarvate/Gymapp')
-txt4('Stock Price Prediction with LSTM', 'Reliance Stock Prediction is Deep Learning LSTM model that predicts stock closing price using LSTM based on the Open, High, Low and Volume as inputs.','https://share.streamlit.io/akshaynarvate/stock-price-prediction-lstm/main/main.py', 'https://github.com/akshaynarvate/Stock-Price-Prediction-LSTM')
-txt4('Health Insurance Premium Prediction App', 'Health Insurance Premium Amount Prediction uses Machine learning predicts premium amount using Linear Regression taking age, sex, bmi, smoker as inputs.', 'https://share.streamlit.io/akshaynarvate/health-insurance-premium-prediction/main/main.py', 'https://github.com/akshaynarvate/Health-Insurance-Premium-Prediction')
-txt4('Future Sales Prediction', 'Application predicts future sales using Machine Learning taking TV and Radio advertising budget as input.','https://share.streamlit.io/akshaynarvate/future-sales-prediction/main/main.py', 'https://github.com/akshaynarvate/Future-Sales-Prediction')
+txt5('Bank Product Recommendation Engine', 'This is an unsupervised Machine Learning project that uses Collaborative Filtering method that recommends products based on the similar customer interests.', 'https://akshaynarvate-product-recommendation-engine-main-2cy7u3.streamlitapp.com/', 'https://github.com/akshaynarvate/Bank-Product-Recommendation-engine')
+txt5('Fitness Prediction Application', 'Gym-App is a fully deployed Machine Learning model that helps you predict your health status based on your inputs.', 'https://share.streamlit.io/akshaynarvate/gymapp/main/main.py', 'https://github.com/akshaynarvate/Gymapp')
+txt5('Stock Price Prediction with LSTM', 'Reliance Stock Prediction is Deep Learning LSTM model that predicts stock closing price using LSTM based on the Open, High, Low and Volume as inputs.','https://share.streamlit.io/akshaynarvate/stock-price-prediction-lstm/main/main.py', 'https://github.com/akshaynarvate/Stock-Price-Prediction-LSTM')
+txt5('Health Insurance Premium Prediction App', 'Health Insurance Premium Amount Prediction uses Machine learning predicts premium amount using Linear Regression taking age, sex, bmi, smoker as inputs.', 'https://share.streamlit.io/akshaynarvate/health-insurance-premium-prediction/main/main.py', 'https://github.com/akshaynarvate/Health-Insurance-Premium-Prediction')
+txt5('Future Sales Prediction', 'Application predicts future sales using Machine Learning taking TV and Radio advertising budget as input.','https://share.streamlit.io/akshaynarvate/future-sales-prediction/main/main.py', 'https://github.com/akshaynarvate/Future-Sales-Prediction')
     
 
 #####################
