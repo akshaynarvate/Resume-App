@@ -113,7 +113,7 @@ st.markdown('''
 
 txt('**Data Science Intern**, Bepec Solutions, Bangalore, India',
 '2022-Present')
-txt('**Data Science Real life Projects:-**)
+txt('**Data Science Real life Projects:-**')
 txt('**Next Best Action**, Churn Customer, Standard Bank, Mozambique',
 '2022')
 st.markdown('''
