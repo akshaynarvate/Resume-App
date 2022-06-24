@@ -186,9 +186,27 @@ txt3('Model deployment', '`streamlit`')
 
 #####################
 st.markdown('''
+## Certification
+''')
+txt4('Wadhwani Foundation Entrepreneurial Leadership Program', 'Fellowship introduces Design, Innovation & Leadership practice to create high-level ventures for social transformation', 'https://drive.google.com/file/d/13BZkIVoStLcDGvCESz8fI0SAR0bse7sS/view?usp=drivesdk')
+txt2('Leadership in a VUCA World(Volatile Uncertain Complex Ambiguous', 'https://leadingculturechange.teachable.com/courses/1130391/certificate?pdf=true')
+txt2('Product Analytics 101 Graduate', 'https://verification.givemycertificate.com/v/954c650e-4e43-49d8-841b-6c1556cd85ed')
+
+
+#####################
+st.markdown('''
+## Languages
+''')
+txt2('English', '')
+txt2('Hindi', '')
+txt2('Telugu', '')
+txt2('Marathi', '')
+
+#####################
+st.markdown('''
 ## Social Media
 ''')
 txt2('LinkedIn', 'https://www.linkedin.com/in/akshaynarvate')
 txt2('GitHub', 'https://github.com/akshaynarvate')
-txt2('Email', 'akshaynarvate@proton.me')
+txt2('Email', 'https://akshaynarvate@proton.me')
 txt2('Medium', 'https://medium.com/@akshaynarvate786123')
