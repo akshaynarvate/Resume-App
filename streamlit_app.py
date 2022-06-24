@@ -157,6 +157,7 @@ st.markdown('''
 txt('**Technical Writer**, [Akshay Narvate Blog](https://medium.com/@akshaynarvate786123) on Medium.com',
 '2022-Present')
 st.markdown('''
+- ["**Intelligence is all about identifying patterns, high intelligence means identifying patterns more quickly & robustly**" - Akshay Narvate](https://link.medium.com/B5SOYnfnFqb)
 - `2+` subscribers on Medium
 - Written `3` blogs on data science, machine learning, business and mindset.
 ''')
