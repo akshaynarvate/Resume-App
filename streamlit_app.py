@@ -52,7 +52,7 @@ st.markdown("""
         <a class="nav-link" href="#work-experience">Work Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#bioinformatics-tools">Projects</a>
+        <a class="nav-link" href="#bioinformatics-tools">Data Science Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#social-media">Social Media</a>
@@ -99,7 +99,7 @@ st.markdown('''
 ## Education
 ''')
 
-txt('**Bachelors of Science** (Biological Science), *Bhavans Vivekananda College*, Hyderabad',
+txt('**Bachelors of Science** (Microbiology, Genetics, Chemistry),  *Bhavans Vivekananda College* , Hyderabad',
 '2015-2018')
 st.markdown('''
 - Percentage: `66`
@@ -111,35 +111,35 @@ st.markdown('''
 ## Work Experience
 ''')
 
-txt('**Data Science Intern**, Bepec Solutions, Bangalore, India',
+txt('**Data Science Intern**,  Bepec Solutions , Bangalore , India',
 '2022-Present')
 txt('**Data Science Real life Projects:-**', '')
-txt('**Next Best Action**, Churn Customer, Standard Bank, Mozambique',
+txt('**Next Best Action**, Churn Customer , Standard Bank , Mozambique' ,
 '2022')
 st.markdown('''
-- Increased the *Revenue* of Standard Bank by *1.2%* by *decreasing* the *Customer churn* rate by *5%*.
--*Proactively finding* out about the *Churn Customer*.
-- Done *EDA* to uncover *meaningful patterns* out of data using Python.
-- Developed *customised model* for *business problem* to increase the
- *financial gains* & *efficiency*.
--*Timely* delivery of *Analysis* more focussed on *client* &
- *business satisfaction*.
-- Transformed business by *creating value* out of data using *analytics*.''')
+- Increased the **Revenue** of Standard Bank by **1.2%** by **decreasing** the **Customer churn** rate by **5%**.
+- **Proactively finding** out about the **Churn Customer**.
+- Done **EDA** to uncover **meaningful patterns** out of data using Python.
+- Developed **customised model** for **business problem** to increase the
+  **financial gains** & **efficiency**.
+- **Timely** delivery of **Analysis** more focussed on **client** &
+  **business satisfaction**.
+- Transformed business by **creating value** out of data using **analytics**.''')
 
-txt('**Recommendation Engine**, Bank Product Recommendation Engine, Standard Bank, Mozambique',
+txt('**Recommendation Engine**, Bank Product Recommendation Engine , Standard Bank , Mozambique' ,
 '2022')
 st.markdown('''
-- Developed *Collaborative Filtering Recommendation Engine* which is User centric by understanding *patterns in ratings*.
-- Created Proof of Concept for business demonstration.
-- Based on *pattern understanding* in ratings *similar products* are recommended which interests them.
+- Developed **Collaborative Filtering Recommendation Engine** which is User centric by understanding **patterns in ratings**.
+- Created **Proof of Concept** for business demonstration.
+- Based on **pattern understanding** in ratings **similar products** are recommended which interests them.
 ''')
 
-txt('**Fitness Prediction App**, Gym App, India',
+txt('**Fitness Prediction App**, Gym App , India' ,
 '2022')
 st.markdown('''
-- Developed customised Proof of Concept that helps predict health status based on inputs.
-- Extracted meaningful hidden patterns and flawlessly predict outcome.
-- Fully Deployed fitness prediction app to predict outcome based on age, height, weight.
+- **Developed** customised **Proof of Concept** that helps predict health status based on inputs.
+- Extracted **meaningful** hidden **patterns** and flawlessly predict outcome.
+- **Fully Deployed** fitness prediction **app** to predict outcome based on age, height, weight.
 ''')
 
 txt('**Technical Writer**, [Akshay Narvate Blog](https://medium.com/@akshaynarvate786123) on Medium.com',
@@ -154,7 +154,7 @@ st.markdown('''
 ## Data Science Projects
 ''')
 txt4('Next Best Action Standard Bank', 'This is an supervised Machine Learning project that uses Random forest method that proactively finds out the churn customer.', 'https://github.com/akshaynarvate/Next-Best-Action')    
-txt4('Bank Product Recommendation Engine', 'This is an unsupervised Machine Learning project that uses Collaborative Filtering method that recommends products based on the similar customer interests.', 'https://share.streamlit.io/akshaynarvate/product-recommendation-engine/main/main.py', 'https://github.com/akshaynarvate/Bank-Product-Recommendation-engine')
+txt4('Bank Product Recommendation Engine', 'This is an unsupervised Machine Learning project that uses Collaborative Filtering method that recommends products based on the similar customer interests.', 'https://akshaynarvate-product-recommendation-engine-main-2cy7u3.streamlitapp.com/', 'https://github.com/akshaynarvate/Bank-Product-Recommendation-engine')
 txt4('Fitness Prediction Application', 'Gym-App is a fully deployed Machine Learning model that helps you predict your health status based on your inputs.', 'https://share.streamlit.io/akshaynarvate/gymapp/main/main.py', 'https://github.com/akshaynarvate/Gymapp')
 txt4('Stock Price Prediction with LSTM', 'Reliance Stock Prediction is Deep Learning LSTM model that predicts stock closing price using LSTM based on the Open, High, Low and Volume as inputs.','https://share.streamlit.io/akshaynarvate/stock-price-prediction-lstm/main/main.py', 'https://github.com/akshaynarvate/Stock-Price-Prediction-LSTM')
 txt4('Health Insurance Premium Prediction App', 'Health Insurance Premium Amount Prediction uses Machine learning predicts premium amount using Linear Regression taking age, sex, bmi, smoker as inputs.', 'https://share.streamlit.io/akshaynarvate/health-insurance-premium-prediction/main/main.py', 'https://github.com/akshaynarvate/Health-Insurance-Premium-Prediction')
