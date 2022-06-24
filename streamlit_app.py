@@ -19,7 +19,7 @@ st.image(image, width=150)
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
 - Experienced Data Scientist with almost 0.6 years of experience in data-oriented environment and a passion for delivering insights based on predictive modeling. 
-- Strong verbal and written communication skills as worked closely with business partners.
+- Strong verbal and written communication skills worked closely with business partners.
 - Developed customised models for various business problems and designed the prototypes from problem identification to model deployment to increase the
   financial gains and the efficiency.
 - Experience in developing statistical/Machine Learning models
@@ -36,7 +36,7 @@ st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootst
 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #16A2CB;">
-  <a class="navbar-brand" href="https://youtube.com/dataprofessor" target="_blank">Chanin Nantasenamat</a>
+  <a class="navbar-brand" href="https://youtube.com/dataprofessor" target="_blank">Akshay Narvate</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -113,7 +113,7 @@ st.markdown('''
 
 txt('**Data Science Intern**, Bepec Solutions, Bangalore, India',
 '2022-Present')
-txt('**Data Science Real life Projects:-**')
+txt('**Data Science Real life Projects:-**', '')
 txt('**Next Best Action**, Churn Customer, Standard Bank, Mozambique',
 '2022')
 st.markdown('''
