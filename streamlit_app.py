@@ -95,7 +95,7 @@ def txt4(a, b, c):
     st.markdown(c)
       
 def txt5(a, b, c, d):
-  col1, col2, col3, col4 = st.columns([1.5,2,2,2])
+  col1, col2, col3, col4 = st.columns([1.5,2,1.5,1.5])
   with col1:
     st.markdown(f'`{a}`')
   with col2:
@@ -177,12 +177,12 @@ txt5('Future Sales Prediction', 'Application predicts future sales using Machine
 st.markdown('''
 ## Skills
 ''')
-txt3('`Python`, `R`')
+txt2('`Python`, `R`')
 txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
 txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`, `ggplot2`')
-txt3('Machine Learning', '`scikit-learn`')
+txt2('Machine Learning', '`scikit-learn`')
 #txt3('Deep Learning', '`TensorFlow`')
-txt3('Model deployment', '`streamlit`')
+txt2('Model deployment', '`streamlit`')
 
 #####################
 st.markdown('''
