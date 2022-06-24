@@ -177,7 +177,7 @@ txt5('Future Sales Prediction', 'Application predicts future sales using Machine
 st.markdown('''
 ## Skills
 ''')
-txt3(`Python`, `R`)
+txt3('Python', `R`)
 txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
 txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`, `ggplot2`')
 txt3('Machine Learning', '`scikit-learn`')
